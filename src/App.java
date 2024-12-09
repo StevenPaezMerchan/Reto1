@@ -1,7 +1,7 @@
 
 import java.util.Random;
 import java.util.Scanner;
-
+// Steven Paez Merchan
 public class App {
 
     //Variables globales
