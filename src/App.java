@@ -30,7 +30,6 @@ public class App {
                         "██╔═══╝ ██║╚██╗██║   ██║    █║\n" +
                         "██║███  ██║ ╚████║   ███████║  \n" +
                         "  ╚═╝     ╚═══╝  ╚═╝   ";
-
     public static void main(String[] args) throws Exception {
         
         welcome();
@@ -341,7 +340,7 @@ public class App {
     public static void printPlanetData() {
         
         System.out.println("| The planet: " + planets[choosePlanet] + "\n| Distance: "
-                + distance[choosePlanet] + "km. " + "\n| Basic information: " + information[choosePlanet]);
+        + distance[choosePlanet] + "km. " + "\n| Basic information: " + information[choosePlanet]);
     }
     //Metodo para presionar espcacio en cada interaccion 
     public static void pressEnter(Scanner scanner) {
